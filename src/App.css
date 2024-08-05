@@ -1,0 +1,33 @@
+:root {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+  padding: 10px;
+}
+
+.lista-botao {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bt-novo {
+  margin: 10px;
+  font-size: 16px;
+  height: 30px;
+}
+
+button {
+  padding: 8px;
+  font-size: 14px;
+  color: white;
+  background-color: #0099e5;
+  font-weight: bold;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}

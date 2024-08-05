@@ -1,0 +1,26 @@
+.grid-item {
+  border: 2px solid #003554;
+  border-radius: 8px;
+  padding: 12px;
+  max-width: fit-content;
+}
+
+.foto-container {
+  align-content: center;
+  min-height: 225px;
+}
+
+.foto-container img {
+  min-width: 200px;
+  max-width: 300px;
+  aspect-ratio: auto;
+}
+
+h3 {
+  margin: 0;
+}
+
+.comentario {
+  font-size: small;
+  color: gray;
+}

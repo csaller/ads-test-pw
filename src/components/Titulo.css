@@ -1,0 +1,10 @@
+.titulo {
+  display: flex;
+  background-color: #003554;
+  color: white;
+}
+
+.logo {
+  height: 100px;
+  margin: 15px;
+}
